@@ -14,6 +14,7 @@ Acronis
 
 Apple
 * Exploited in the wild:
+  * "Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27." 28 September 2026 https://support.apple.com/en-us/149226
   * "Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26." 12 December 2025 https://support.apple.com/en-us/125884
   * "Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems." 19 November 2024 https://support.apple.com/en-euro/121752
   * "Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.1." 15 December 2022 https://support.apple.com/en-vn/103014
@@ -35,6 +36,9 @@ Atlassian
 
 B
 
+Barracuda
+* Exploited in the wild: "Based on our investigation to date, we’ve identified that the vulnerability resulted in unauthorized access to a subset of email gateway appliances." 23 May 2023 https://status.barracuda.com/incidents/34kx82j5n4q9
+
 C
 
 Check Point:
@@ -47,13 +51,16 @@ Cisco
 * Proof of Concept:
   * "The Cisco PSIRT is aware that proof-of-concept exploit code is available for the vulnerability that is described in this advisory." 03 June 2026 https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cucm-ssrf-cXPnHcW.html
 * Exploited in the wild:
+  * "In September 2026, the Cisco PSIRT became aware of active exploitation of this vulnerability." 30 September 2026 https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU
   * "The Cisco PSIRT is aware of active exploitation of this vulnerability." 16 September 2026 https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5
   * "In September 2026, the Cisco PSIRT became aware of active exploitation of this vulnerability." 14 September 2026 https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX
 
 Citrix
 * Exploited in the wild:
   * "Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed." 27 September 2026 https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-through-cve-2026-88778
-  * "Exploitation of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments has been observed." 
+  * "Exploits of CVE-2025-7775 on unmitigated appliances have been observed." 26 August 2025 https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694938
+  * "Exploits of CVE-2023-4966 on unmitigated appliances have been observed." 17 October 2023 https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX579459
+  * 
 
 ConnectWise
 * Exploited in the wild:
@@ -61,6 +68,10 @@ ConnectWise
   * "We've received notifications of suspicious activity that our incident response team has investigated." 20 February 2024 https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8
 
 D
+
+D-Link
+* Proof of concept:
+  * "On May 15th,  2024, a 3rd party security researcher, publically 0-day disclosed the D-Link Router DIR-X4860 (firmware ver. 1.04b03) with potential vulnerabilities."  16 May 2024 https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10390
 
 Drupal
 * Exploited in the wild: "May 22 2026, 04:30 UTC: The risk score has been updated to reflect that exploit attempts are now being detected in the wild." 22 May 2026 https://www.drupal.org/sa-core-2026-004
