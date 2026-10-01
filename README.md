@@ -39,6 +39,12 @@ B
 Barracuda
 * Exploited in the wild: "Based on our investigation to date, we’ve identified that the vulnerability resulted in unauthorized access to a subset of email gateway appliances." 23 May 2023 https://status.barracuda.com/incidents/34kx82j5n4q9
 
+Broadcom
+* Exploited in the wild:
+  * "UPDATE: Broadcom is aware of reports of potential exploitation of CVE-2026-22719 in the wild, but we cannot independently confirm their validity." 11 March 2026 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947
+  * "UPDATE: Broadcom has information to suggest that exploitation of CVE-2024-37079 has occurred in the wild." 24 January 2026 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24453
+  * "[3] Broadcom has information to suggest that suspected exploitation of CVE-2025-41244 has occurred in the wild." 30 October 2025 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36149
+
 C
 
 Check Point:
@@ -80,9 +86,17 @@ E
 
 F
 
+Fortinet
+* Exploited in the wild:
+  * "This has been observed to be exploited in the wild." 06 February 2026 https://fortiguard.fortinet.com/psirt/FG-IR-25-1142
+  * "Fortinet has observed this to be exploited in the wild and urges vulnerable customers to install the hotfix for FortiClient EMS 7.4.5 and 7.4.6" 04 April 2026 https://fortiguard.fortinet.com/psirt/FG-IR-26-099
+  * "This vulnerability was found being exploited in the wild by two malicious FortiCloud accounts, which were locked out on 2026-01-22." 27 January 2026 https://fortiguard.fortinet.com/psirt/FG-IR-26-060
+  * "Fortinet has observed this to be exploited in the wild." 18 November 2025 https://fortiguard.fortinet.com/psirt/FG-IR-25-513
+
 F5
 * Exploited in the wild:
   * "Important: We have learned that this vulnerability has been exploited." 22 September 2026 https://my.f5.com/manage/s/article/K000162605
+  * "Important: We have learned that this vulnerability has been exploited." 03 April 2026 https://my.f5.com/manage/s/article/K000156741
 
 G
 
@@ -104,10 +118,25 @@ H
 I
 
 Ivanti
+* Proof of concept: "However, a Proof of Concept is publicly available, and we urge customers to upgrade to the latest patched version." 12 August 2024 https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Virtual-Traffic-Manager-vTM-CVE-2024-7593?language=en_US
 * Exploited in the wild:
   * "We are aware of a very limited number of customers exploited with CVE-2026-6973." 07 May 2026 https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US
+  * "We are aware of a limited number of customers’ Ivanti Connect Secure appliances being exploited by CVE-2025-0282 at the time of disclosure." 08 January 2025 https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-0282-CVE-2025-0283?language=en_US
+  * "We are aware of a limited number of customers running CSA 4.6 patch 518 and prior who have been exploited when CVE-2024-9379 or CVE-2024-9380 are chained with CVE-2024-8963." 08 October 2024 https://www.ivanti.com/blog/october-2024-security-update
+  * "We currently have no evidence of customers being impacted by CVE-2024-21888, at the time of disclosure we had no evidence of customers being impacted by CVE-2024-22024, and at time of disclosure we were aware of a limited number of customers impacted by CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893." 10 January 2024 https://hub.ivanti.com/s/article/KB-CVE-2023-46805-Authentication-Bypass-CVE-2024-21887-Command-Injection-for-Ivanti-Connect-Secure-and-Ivanti-Policy-Secure-Gateways?language=en_US
 
 J
+
+JetBrains
+* Exploited in the wild:
+  * "Since our initial announcement on July 27, 2026, we have received reports of active exploitation, as well as attempted exploitation, targeting unpatched TeamCity servers." 07 August 2026 Since our initial announcement on July 27, 2026, we have received reports of active exploitation, as well as attempted exploitation, targeting unpatched TeamCity servers.
+  * "On October 17, 2023, the Microsoft Threat Intelligence Center team reached out to JetBrains to inform us they have observed multiple North Korean nation-state threat actors actively exploiting the CVE-2023-42793 vulnerability since early October 2023." 18 October 2023 https://blog.jetbrains.com/teamcity/2023/10/cve-2023-42793-vulnerability-in-teamcity-october-18-2023-update/
+  * "On December 13, 2023 the Cybersecurity & Infrastructure Security Agency of the U.S. Department of Homeland Security (CISA) released a public advisory, in which they shared new ways in which this vulnerability (CVE-2023-42793) has been exploited by Russian nation-state threat actors as of September 2023." 14 December 2023 https://blog.jetbrains.com/teamcity/2023/12/cve-2023-42793-vulnerability-in-teamcity-december-14-2023-update/
+  * "Believed they were impacted by the CVE-2024-27198 vulnerability." "They noticed several unauthorized admin accounts created on the server." "Their TeamCity environment had been compromised through the recent vulnerabilities." "Several unknown user accounts had been created on their TeamCity server." 11 March 2024 https://blog.jetbrains.com/teamcity/2024/03/preventing-exploits-jetbrains-ethical-approach-to-vulnerability-disclosure/
+
+Juniper
+* Proof of concept: "However, a proof-of-concept exploit does exist in the wild."  28 June 2021 https://supportportal.juniper.net/s/article/2021-07-Security-Bulletin-Junos-OS-J-Web-allows-a-locally-authenticated-attacker-to-escalate-their-privileges-to-root-CVE-2021-0278
+* Exploited in the wild: "Update – November 8th 2023:  Juniper SIRT is now aware of successful exploitation of these vulnerabilities." 08 November 2023 https://supportportal.juniper.net/s/article/2023-08-Out-of-Cycle-Security-Bulletin-Junos-OS-SRX-Series-and-EX-Series-Multiple-vulnerabilities-in-J-Web-can-be-combined-to-allow-a-preAuth-Remote-Code-Execution
 
 K
 
@@ -121,6 +150,12 @@ Microsoft:
 * Exploited in the wild:
   * "Current Exploitation Status: As of 9/25/2026, Microsoft had reliable evidence of observed attacks against exploitation of this vulnerability." 25 September 2026 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660
   * "Exploited Yes" 08 September 2026 https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-85880
+
+Mozilla Foundation (Firefox)
+* Exploited in the wild:
+  * "We have had reports of this vulnerability being exploited in the wild." 09 October 2024 https://www.mozilla.org/en-US/security/advisories/mfsa2024-51/
+  * "We are aware of targeted attacks in the wild abusing this flaw." 20 June 2019 https://www.mozilla.org/en-US/security/advisories/mfsa2019-20/
+  * "An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows." 30 November 2016 https://www.mozilla.org/en-US/security/advisories/mfsa2016-92/
 
 N
 
@@ -142,10 +177,12 @@ P
 Palo Alto
 * Exploited in the wild:
   * "Palo Alto Networks has become aware of limited exploit attempts on unpatched PAN-OS devices without mitigations applied." 29 May 2026 https://security.paloaltonetworks.com/CVE-2026-0257
+  * "Limited exploitation has been observed targeting Palo Alto Networks User-ID™ Authentication Portals that are exposed to untrusted IP addresses and/or the public internet." 05 May 2026 https://security.paloaltonetworks.com/CVE-2026-0300
 
 PaperCut
 * Exploited in the wild:
   * "PaperCut Software security response team is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF." "Restored support for using legacy Microsoft SQL Server drivers for external card lookupEmergency Patch Release 3 adds further hardening that closes off additional attack vectors we have observed being exploited in the wild." 27 August 2026 https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/
+  * "We have evidence to suggest that unpatched servers are being exploited in the wild." 19 April 2023 https://www.papercut.com/kb/Main/PO-1216-and-PO-1219
 
 Q
 
