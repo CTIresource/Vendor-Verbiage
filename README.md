@@ -4,13 +4,18 @@ Different software vendors have different ways of saying proof-of-concept, activ
 A
 
 Adobe
-* Proof of Concept: "Adobe is aware that CVE-2025-54253 and CVE-2025-54254 have a publicly available proof-of-concept." 05 August 2025 https://helpx.adobe.com/security/products/aem-forms/apsb25-82.html
+* Proof of Concept:
+  * "Adobe is aware that CVE-2025-54253 and CVE-2025-54254 have a publicly available proof-of-concept." 05 August 2025 https://helpx.adobe.com/security/products/aem-forms/apsb25-82.html
+  * "Adobe is aware that CVE-2024-41869 has a known proof-of-concept that could cause Adobe Acrobat and Reader to crash." 10 September 2024 https://helpx.adobe.com/ca/security/products/acrobat/apsb24-70.html
 * Exploited in the wild:
-  * "Adobe is aware of CVE-2026-75650 being exploited in the wild." 07 September 2026 https://helpx.adobe.com/security/products/magento/apsb26-146.html
+  * "Adobe is aware of CVE-2026-75650 being exploited in the wild." "Adobe became aware of a zero-day vulnerability in Adobe Commerce and has released a security update (APSB26-146) to resolve it." 07 September 2026 https://helpx.adobe.com/security/products/magento/apsb26-146.html https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/commerce-apsb26-146
   * " Adobe is aware that CVE-2026-48282 has been exploited in the wild in limited attacks targeting Adobe ColdFusion." 13 July 2026 https://helpx.adobe.com/security/products/coldfusion/apsb26-68.html
+  * "Adobe is aware of CVE-2026-34621 being exploited in the wild." 11 April 2026 https://www.adobe.com/trust/security/products/acrobat/apsb26-43.html
 
 Acronis
-* Exploited in teh wild: "Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks against Acronis Backup plugin for cPanel & WHM deployments." 17 September 2026 https://security-advisory.acronis.com/advisories/SEC-10986
+* Exploited in the wild:
+  * "Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks against Acronis Backup plugin for cPanel & WHM deployments." 17 September 2026 https://security-advisory.acronis.com/advisories/SEC-10986
+  * "This vulnerability is known to be exploited in the wild." 30 October 2023 https://security-advisory.acronis.com/updates/UPD-2310-9e7e-bd9b
 
 Apple
 * Exploited in the wild:
@@ -40,6 +45,7 @@ Barracuda
 * Exploited in the wild: "Based on our investigation to date, we’ve identified that the vulnerability resulted in unauthorized access to a subset of email gateway appliances." 23 May 2023 https://status.barracuda.com/incidents/34kx82j5n4q9
 
 Broadcom
+* Proof of concept: "VMware has confirmed that exploit code leveraging CVE-2021-39144 against impacted products has been published." 18 October 2022 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23646
 * Exploited in the wild:
   * "UPDATE: Broadcom is aware of reports of potential exploitation of CVE-2026-22719 in the wild, but we cannot independently confirm their validity." 11 March 2026 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947
   * "UPDATE: Broadcom has information to suggest that exploitation of CVE-2024-37079 has occurred in the wild." 24 January 2026 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24453
@@ -88,6 +94,7 @@ F
 
 Fortinet
 * Exploited in the wild:
+  * "This has been reported to be exploited in the wild, customers are urged to apply the workaround below." 01 October 2026 https://fortiguard.fortinet.com/psirt/FG-IR-26-175
   * "This has been observed to be exploited in the wild." 06 February 2026 https://fortiguard.fortinet.com/psirt/FG-IR-25-1142
   * "Fortinet has observed this to be exploited in the wild and urges vulnerable customers to install the hotfix for FortiClient EMS 7.4.5 and 7.4.6" 04 April 2026 https://fortiguard.fortinet.com/psirt/FG-IR-26-099
   * "This vulnerability was found being exploited in the wild by two malicious FortiCloud accounts, which were locked out on 2026-01-22." 27 January 2026 https://fortiguard.fortinet.com/psirt/FG-IR-26-060
@@ -109,9 +116,11 @@ Google (Android)
   * "Note: There are indications that CVE-2025-48595 may be under limited, targeted exploitation." 01 June 2026 https://source.android.com/docs/security/bulletin/2026/2026-06-01
 
 Google (Chrome)
+* Proof of concept: "Google is aware that knowledge of CVE-2025-4664 exists in the wild." 14 May 2025 https://chromereleases.googleblog.com/2025/05/stable-channel-update-for-desktop_14.html
 * Exploited in the wild:
   * "Google is aware that an exploit for CVE-2026-87491 exists in the wild." 08 September 2026 https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html
   * "Google is aware that an exploit for CVE-2026-85046 exists in the wild." 03 September 2026 https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html
+  * "Google is aware of reports that an exploit for CVE-2025-24201 exists in the wild." 10 March 2025 https://chromereleases.googleblog.com/2025/03/stable-channel-update-for-desktop_10.html
 
 H
 
@@ -184,28 +193,69 @@ PaperCut
   * "PaperCut Software security response team is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF." "Restored support for using legacy Microsoft SQL Server drivers for external card lookupEmergency Patch Release 3 adds further hardening that closes off additional attack vectors we have observed being exploited in the wild." 27 August 2026 https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/
   * "We have evidence to suggest that unpatched servers are being exploited in the wild." 19 April 2023 https://www.papercut.com/kb/Main/PO-1216-and-PO-1219
 
+Progress
+* Exploited in the wild: "NOTE: this is exploited in the wild in May and June 2023; exploitation of unpatched systems can occur via HTTP or HTTPS." 16 June 2023 https://community.progress.com/s/article/MOVEit-Transfer-Critical-Vulnerability-31May2023
+
 Q
+
+Qlik:
+* Exploited in the wild: "Qlik has received reports that this vulnerability may be being used by malicious actors." 15 May 2024 https://community.qlik.com/t5/Official-Support-Articles/Critical-Security-fixes-for-Qlik-Sense-Enterprise-for-Windows/ta-p/2110801
+
+QNAP 
+* Exploited in the wild: "QNAP detected a new DeadBolt ransomware campaign on the morning of September 3rd, 2022 (GMT+8). The campaign appears to target QNAP NAS devices running Photo Station with internet exposure." 03 September 2022 https://www.qnap.com/en/security-advisory/qsa-22-24
+
+Qualcomm
+* Exploited in the wild:
+  * "There are indications from Google Threat Analysis Group that CVE-2025-21479, CVE-2025-21480, CVE-2025-27038 may be under limited, targeted exploitation." 10 June 2025 https://docs.qualcomm.com/securitybulletin/june-2025-bulletin.html
+  * "There are indications from Google Threat Analysis Group that CVE-2024-43047 may be under limited, targeted exploitation." 07 October 2024 https://docs.qualcomm.com/securitybulletin/october-2024-bulletin.html
+  * 
 
 R
 
 S
 
+SolarWinds
+* Exploited in the wild:
+  * "This is being exploited in the wild." 05 June 2024 https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28995
+  * "While Microsoft’s research indicates this vulnerability exploit involves a limited, targeted set of customers and a single threat actor, our joint teams have mobilized to address it quickly." 09 July 2021 https://www.solarwinds.com/trust-center/security-advisories/cve-2021-35211
+
 SonicWall
+* Proof of concept: "SonicWall PSIRT is aware that a proof of concept (PoC) exploit for this vulnerabilities is publicly available, we have no information regarding any exploitation of this vulnerability in the wild." 27 September 2024 https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0016
 * Exploited in the wild:
   * "IMPORTANT: SonicWall PSIRT has investigated a case indicating the active exploitation of the vulnerabilities described in this advisory." 01 September 2026 https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016
   * "IMPORTANT: SonicWall PSIRT has investigated multiple cases indicating the active exploitation of the vulnerabilities described in this advisory." 14 July 2026 https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0008
 
+Sophos
+* Exploited in the wild:
+  * "CISA observed this vulnerability being used in the wild." 04 April 2023 https://www.sophos.com/en-us/security-advisories/sophos-sa-20230404-swa-rce
+  * "Sophos has observed this vulnerability being used in the wild." "In December 2023, we delivered an updated fix after identifying new exploit attempts against this same vulnerability in older, unsupported versions of the Sophos Firewall." 23 September 2022 https://www.sophos.com/en-us/security-advisories/sophos-sa-20220923-sfos-rce
+  * "Sophos has observed this vulnerability being used to target a small set of specific organizations primarily in the South Asia region." 25 March 2022 https://www.sophos.com/en-us/security-advisories/sophos-sa-20220325-sfos-rce
+
 Splunk
 * Exploited in the wild: "In June 2026, the Splunk Product Security Incident Response Team (PSIRT) became aware of limited exploitation of this vulnerability." 18 June 2026 https://advisory.splunk.com/advisories/SVD-2026-0603
 
+SysAid
+* Exploited in the wild: "The investigation determined that there was a zero-day vulnerability in the SysAid on-premises software." "The vulnerability was exploited by a group known as DEV-0950 (Lace Tempest), as identified by the Microsoft Threat Intelligence team."08 November 2023 https://www.sysaid.com/blog/service-desk/on-premise-software-security-vulnerability-notification
+
 T
 
+TP-Link
+* Exploited in the wild:
+  * "The threat actor exploits vulnerabilities in the routers to gain remote code execution capability." "Sekoia.io monitored a TP-Link WR841N router (3.16.9 Build 150320 Rel.57500n), which is known to be vulnerable to a chained exploit attack used by the Quad 7 botnet. Sekoia observed a notable attack that chained an unauthenticated file disclosure and a command injection." "According to Sekoia’s analysis, the threat actor chained two vulnerabilities." 29 August 2025 https://www.tp-link.com/us/support/faq/4365/
+  * "TP-Link is aware of reports that the REC vulnerability CVE-2023-1389 in AX21 has been added to the Mirai botnet Arsenal." 27 April 2023 https://www.tp-link.com/us/support/faq/3643/
+
 Trend Micro
-* Exploited in the wild: "! ITW Notification: TrendAI has observed at least one instance of an attempt to actively exploit one of these vulnerabilities in the wild." 21 May 2026 https://success.trendmicro.com/en-US/solution/KA-0023430
+* Exploited in the wild:
+  * "! ITW Notification: TrendAI has observed at least one instance of an attempt to actively exploit one of these vulnerabilities in the wild." 21 May 2026 https://success.trendmicro.com/en-US/solution/KA-0023430
+  * "ITW Alert: Trend Micro has observed at least one active attempt of potential exploitation of this vulnerability in the wild." 13 September 2022 https://success.trendmicro.com/en-US/solution/KA-0013373
 
 U
 
 V
+
+Versa
+* Proof of Concept: "A proof of concept exists in the lab environment." 20 September 2024 https://security-portal.versa-networks.com/emailbulletins/66e4a8ebda545d61ec2b1ab9
+* Exploited in the wild: "This vulnerability has been exploited in at least one known instance by an Advanced Persistent Threat actor." 26 August 2024 https://versa-networks.com/blog/versa-security-bulletin-update-on-cve-2024-39717-versa-director-dangerous-file-type-upload-vulnerability/
 
 W
 
@@ -214,3 +264,18 @@ X
 Y
 
 Z
+
+Zimbra
+* Exploited in the wild:
+  * "Important: This vulnerability has been actively exploited, making it imperative to take immediate action." 13 July 2023 https://blog.zimbra.com/2023/07/security-update-for-zimbra-collaboration-suite-version-8-8-15/
+
+Zoho
+* Proof of concept: "The exploit POC for the above vulnerability is available in public." 19 July 2022 https://www.manageengine.com/products/passwordmanagerpro/advisory/cve-2022-35405.html
+* Exploited in the wild:
+  * "Note: As we are noticing indications of exploitation of this vulnerability, we strongly advise customers to update their installations to the latest build as soon as possible." 03 December 2021 https://pitstop.manageengine.com/portal/en/community/topic/an-authentication-bypass-vulnerability-identified-and-fixed-in-desktop-central-and-desktop-central-msp
+  * "Please note that we are noticing exploits of this vulnerability, and we strongly urge all customers using ServiceDesk Plus MSP (all editions) with versions 10527 till 10529 to update to the latest version immediately." 21 November 2021 https://pitstop.manageengine.com/portal/en/community/topic/security-advisory-for-cve-2021-44077-unauthenticated-rce-vulnerability-in-servicedesk-plus-msp-versions-10527-till-10529
+
+Zyxel
+* Exploited in the wild:
+  * "Zyxel recently became aware of CVE-2024-40890 and CVE-2024-40891 being mentioned in a post on GreyNoise’s blog." 05 February 2025 https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-command-injection-and-insecure-default-credentials-vulnerabilities-in-certain-legacy-dsl-cpe-02-04-2025
+  * "Zyxel is aware of recent attempts by threat actors to target Zyxel firewalls through previously disclosed vulnerabilities, as reported in Sekoia’s blog post." 21 November 2021 https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-protecting-against-recent-firewall-threats-11-27-2024
