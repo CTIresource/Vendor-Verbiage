@@ -44,6 +44,9 @@ B
 Barracuda
 * Exploited in the wild: "Based on our investigation to date, we’ve identified that the vulnerability resulted in unauthorized access to a subset of email gateway appliances." 23 May 2023 https://status.barracuda.com/incidents/34kx82j5n4q9
 
+BeyondTrust
+* Exploited in the wild: "BeyondTrust is aware of and supporting a limited number of self-hosted customers in responding to active exploitation attempts of the previously disclosed critical vulnerability (CVE-2026-1731) in its Remote Support and Privileged Remote Access solutions." 06 February 2026 https://www.beyondtrust.com/trust-center/security-advisories/bt26-02
+
 Broadcom
 * Proof of concept:
   * "VMware has confirmed that exploit code leveraging CVE-2021-39144 against impacted products has been published." 18 October 2022 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23646
@@ -74,18 +77,23 @@ Citrix
   * "Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed." 27 September 2026 https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-through-cve-2026-88778
   * "Exploits of CVE-2025-7775 on unmitigated appliances have been observed." 26 August 2025 https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694938
   * "Exploits of CVE-2023-4966 on unmitigated appliances have been observed." 17 October 2023 https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX579459
-  * 
 
 ConnectWise
 * Exploited in the wild:
   * "Priority 1 High—Vulnerabilities that are either being targeted or have higher risk of being targeted by exploits in the wild." 08 September 2026 https://www.connectwise.com/company/trust/security-bulletins/2026-09-08-screenconnect-bulletin
   * "We've received notifications of suspicious activity that our incident response team has investigated." 20 February 2024 https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8
 
+CrushFTP
+* Exploited in the wild: "July 18th, 9AM CST there is a 0-day exploit seen in the wild. Possibly it has been going on for longer, but we saw it then." 18 July 2025 https://www.crushftp.com/crush11wiki/Wiki.jsp?page=CompromiseJuly2025
+
 D
 
 D-Link
 * Proof of concept:
   * "On May 15th,  2024, a 3rd party security researcher, publically 0-day disclosed the D-Link Router DIR-X4860 (firmware ver. 1.04b03) with potential vulnerabilities."  16 May 2024 https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10390
+
+Dell
+* Exploited in the wild: "Dell has received a report from Google/Mandiant of limited active exploitation of this vulnerability." 17 February 2026 https://www.dell.com/support/kbdoc/en-us/000426773/dsa-2026-079
 
 Draytek
 * Exploited in the wild:
@@ -106,6 +114,11 @@ Fortinet
   * "Fortinet has observed this to be exploited in the wild and urges vulnerable customers to install the hotfix for FortiClient EMS 7.4.5 and 7.4.6" 04 April 2026 https://fortiguard.fortinet.com/psirt/FG-IR-26-099
   * "This vulnerability was found being exploited in the wild by two malicious FortiCloud accounts, which were locked out on 2026-01-22." 27 January 2026 https://fortiguard.fortinet.com/psirt/FG-IR-26-060
   * "Fortinet has observed this to be exploited in the wild." 18 November 2025 https://fortiguard.fortinet.com/psirt/FG-IR-25-513
+
+Fortra
+* Exploited in the wild:
+  * "We have completed our investigation of suspicious activity related to our Fortra GoAnywhere MFT solution that resulted in CVE-2025-10035." 09 October 2025 https://www.goanywhere.com/blog/summary-investigation-related-cve-2025-10035
+  * "We discovered between January 28, 2023, and January 30, 2023, an unauthorized party used a previously unknown, zero-day remote code execution (RCE) vulnerability to access certain GoAnywhere customers’ systems." 17 April 2023 https://www.fortra.com/blog/summary-investigation-related-cve-2023-0669
 
 F5
 * Exploited in the wild:
@@ -225,6 +238,9 @@ Qualcomm
 
 R
 
+Roundcube
+* Exploited in the wild: "Apparently this zero-day exploit is already being used by hackers to read Roundcube’s configuration files." 08 November 2017 https://roundcube.net/news/2017/11/08/security-updates-1.3.3-1.2.7-and-1.1.10
+
 S
 
 SolarWinds
@@ -267,10 +283,17 @@ U
 V
 
 Versa
-* Proof of Concept: "A proof of concept exists in the lab environment." 20 September 2024 https://security-portal.versa-networks.com/emailbulletins/66e4a8ebda545d61ec2b1ab9
-* Exploited in the wild: "This vulnerability has been exploited in at least one known instance by an Advanced Persistent Threat actor." 26 August 2024 https://versa-networks.com/blog/versa-security-bulletin-update-on-cve-2024-39717-versa-director-dangerous-file-type-upload-vulnerability/
+* Proof of Concept:
+  * "A proof of concept exists in the lab environment." 20 September 2024 https://security-portal.versa-networks.com/emailbulletins/66e4a8ebda545d61ec2b1ab9
+  * "Proof of concept for this vulnerability has been disclosed by third party security researchers." 23 May 2025 https://security-portal.versa-networks.com/emailbulletins/6830f81028defa375486ff2d
+* Exploited in the wild:
+  * "This vulnerability has been exploited in at least one known instance by an Advanced Persistent Threat actor." 26 August 2024 https://versa-networks.com/blog/versa-security-bulletin-update-on-cve-2024-39717-versa-director-dangerous-file-type-upload-vulnerability/
+  * "Versa Networks is aware of one confirmed customer reported instance where this vulnerability was exploited because the Firewall guidelines which were published in 2015 & 2017 were not implemented." 07 August 2024 https://security-portal.versa-networks.com/emailbulletins/66dea661da545d61ec2b1a9a
 
 W
+
+WatchGuard
+* Exploited in the wild: "WatchGuard has observed threat actors actively attempting to exploit this vulnerability in the wild." 19 December 2025 https://psirt.watchguard.com/CVE-2025-14733/
 
 X
 
