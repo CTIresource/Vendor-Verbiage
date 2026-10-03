@@ -45,7 +45,9 @@ Barracuda
 * Exploited in the wild: "Based on our investigation to date, we’ve identified that the vulnerability resulted in unauthorized access to a subset of email gateway appliances." 23 May 2023 https://status.barracuda.com/incidents/34kx82j5n4q9
 
 Broadcom
-* Proof of concept: "VMware has confirmed that exploit code leveraging CVE-2021-39144 against impacted products has been published." 18 October 2022 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23646
+* Proof of concept:
+  * "VMware has confirmed that exploit code leveraging CVE-2021-39144 against impacted products has been published." 18 October 2022 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23646
+  * "The exploit code for the vulnerability has been released publicly and the vulnerability has also been reported as exploited in the wild." 29 June 2023 https://www.broadcom.com/support/security-center/protection-bulletin/cve-2023-20887-vulnerability-affecting-vmware-aria-operations-for-networks
 * Exploited in the wild:
   * "UPDATE: Broadcom is aware of reports of potential exploitation of CVE-2026-22719 in the wild, but we cannot independently confirm their validity." 11 March 2026 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947
   * "UPDATE: Broadcom has information to suggest that exploitation of CVE-2024-37079 has occurred in the wild." 24 January 2026 https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24453
@@ -84,6 +86,11 @@ D
 D-Link
 * Proof of concept:
   * "On May 15th,  2024, a 3rd party security researcher, publically 0-day disclosed the D-Link Router DIR-X4860 (firmware ver. 1.04b03) with potential vulnerabilities."  16 May 2024 https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10390
+
+Draytek
+* Exploited in the wild:
+  * "We have become aware of possible threats of the VigorConnect related to software security, and this vulnerability had been resolved with the software v1.6.1 released on 7th Oct. 2021." 15 October 2021 https://www.draytek.com/about/security-advisory/vigorconnect-software-security-vulnerability-(cve-2021-20123-cve-2021-20129)/
+  * "We have become aware of a possible exploit of the Vigor3900 / 2960 / 300B related to functions and services on 12th Apr., and we released an updated firmware to address this issue on 17th Jun. 2020." 24 June 2020 https://www.draytek.com/about/security-advisory/vigor3900-vigor2960-vigor300b-remote-code-injection-execution-vulnerability-(cve-2020-14472)/
 
 Drupal
 * Exploited in the wild: "May 22 2026, 04:30 UTC: The risk score has been updated to reflect that exploit attempts are now being detected in the wild." 22 May 2026 https://www.drupal.org/sa-core-2026-004
@@ -159,6 +166,12 @@ Microsoft:
 * Exploited in the wild:
   * "Current Exploitation Status: As of 9/25/2026, Microsoft had reliable evidence of observed attacks against exploitation of this vulnerability." 25 September 2026 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65660
   * "Exploited Yes" 08 September 2026 https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-85880
+
+Mikrotik
+* Proof of concept:
+  * "The exploit for this issue has been publicly disclosed and may be actively used." 25 September 2025 https://mikrotik.com/supportsec/cve-2025-10948/
+  * "A cybersecurity researcher from Tenable Research has released a new proof-of-concept (PoC) RCE attack for an old directory traversal vulnerability that was found and patched within a day of its discovery in April this year" 09 October 2018 https://mikrotik.com/supportsec/new-exploit-for-mikrotik-router-winbox-vulnerability/
+* Exploited in the wild: "Note that although Winbox was used as point of attack, the vulnerabilitty was in RouterOS." 12 July 2018 https://mikrotik.com/supportsec/winbox-vulnerability/
 
 Mozilla Foundation (Firefox)
 * Exploited in the wild:
