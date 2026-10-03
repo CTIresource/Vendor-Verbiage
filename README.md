@@ -107,6 +107,12 @@ E
 
 F
 
+F5
+* Exploited in the wild:
+  * "Important: We have learned that this vulnerability has been exploited." 22 September 2026 https://my.f5.com/manage/s/article/K000162605
+  * "Important: We have learned that this vulnerability has been exploited." 03 April 2026 https://my.f5.com/manage/s/article/K000156741
+  * "F5 has observed threat actors using this vulnerability to exploit CVE-2023-46748." 26 October 2023 https://my.f5.com/manage/s/article/K000137353
+ 
 Fortinet
 * Exploited in the wild:
   * "This has been reported to be exploited in the wild, customers are urged to apply the workaround below." 01 October 2026 https://fortiguard.fortinet.com/psirt/FG-IR-26-175
@@ -119,11 +125,6 @@ Fortra
 * Exploited in the wild:
   * "We have completed our investigation of suspicious activity related to our Fortra GoAnywhere MFT solution that resulted in CVE-2025-10035." 09 October 2025 https://www.goanywhere.com/blog/summary-investigation-related-cve-2025-10035
   * "We discovered between January 28, 2023, and January 30, 2023, an unauthorized party used a previously unknown, zero-day remote code execution (RCE) vulnerability to access certain GoAnywhere customers’ systems." 17 April 2023 https://www.fortra.com/blog/summary-investigation-related-cve-2023-0669
-
-F5
-* Exploited in the wild:
-  * "Important: We have learned that this vulnerability has been exploited." 22 September 2026 https://my.f5.com/manage/s/article/K000162605
-  * "Important: We have learned that this vulnerability has been exploited." 03 April 2026 https://my.f5.com/manage/s/article/K000156741
 
 G
 
