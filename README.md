@@ -156,6 +156,9 @@ Ivanti
 
 J
 
+Jenkins
+* Exploited in the wild: "As of publication, the Jenkins security team has confirmed the following possible attacks in addition to reading contents of all files with a known file path." 28 January 2024 https://www.jenkins.io/security/advisory/2024-01-24/#SECURITY-3314
+
 JetBrains
 * Exploited in the wild:
   * "Since our initial announcement on July 27, 2026, we have received reports of active exploitation, as well as attempted exploitation, targeting unpatched TeamCity servers." 07 August 2026 Since our initial announcement on July 27, 2026, we have received reports of active exploitation, as well as attempted exploitation, targeting unpatched TeamCity servers.
