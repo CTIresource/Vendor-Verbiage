@@ -74,6 +74,7 @@ Cisco
 
 Citrix
 * Exploited in the wild:
+  * "Citrix has observed targeted attacks on unmitigated NetScaler deployments which can lead to Denial of Service." 04 October 2026 https://community.citrix.com/techzone-blogs/110_security-updates/understanding-and-addressing-cve-2026-88779-in-citrix-netscaler-adc-and-citrix-netscaler-gateway/
   * "Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed." 27 September 2026 https://community.citrix.com/techzone-blogs/110_security-updates/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve-2026-88771-through-cve-2026-88778
   * "Exploits of CVE-2025-7775 on unmitigated appliances have been observed." 26 August 2025 https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694938
   * "Exploits of CVE-2023-4966 on unmitigated appliances have been observed." 17 October 2023 https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX579459
