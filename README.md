@@ -68,6 +68,7 @@ Cisco
 * Proof of Concept:
   * "The Cisco PSIRT is aware that proof-of-concept exploit code is available for the vulnerability that is described in this advisory." 03 June 2026 https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cucm-ssrf-cXPnHcW.html
 * Exploited in the wild:
+  * "In October 2026, the Cisco PSIRT became aware of active exploitation of this vulnerability." 14 October 2026 https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp
   * "In September 2026, the Cisco PSIRT became aware of active exploitation of this vulnerability." 30 September 2026 https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU
   * "The Cisco PSIRT is aware of active exploitation of this vulnerability." 16 September 2026 https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ISE-ABP-VNSW7Tn5
   * "In September 2026, the Cisco PSIRT became aware of active exploitation of this vulnerability." 14 September 2026 https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX
@@ -151,6 +152,7 @@ I
 Ivanti
 * Proof of concept: "However, a Proof of Concept is publicly available, and we urge customers to upgrade to the latest patched version." 12 August 2024 https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Virtual-Traffic-Manager-vTM-CVE-2024-7593?language=en_US
 * Exploited in the wild:
+  * "We are aware of exploitation in the wild affecting a limited number of customers at the time of disclosure. " 13 October 2026 https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US
   * "We are aware of a very limited number of customers exploited with CVE-2026-6973." 07 May 2026 https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US
   * "We are aware of a limited number of customers’ Ivanti Connect Secure appliances being exploited by CVE-2025-0282 at the time of disclosure." 08 January 2025 https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-0282-CVE-2025-0283?language=en_US
   * "We are aware of a limited number of customers running CSA 4.6 patch 518 and prior who have been exploited when CVE-2024-9379 or CVE-2024-9380 are chained with CVE-2024-8963." 08 October 2024 https://www.ivanti.com/blog/october-2024-security-update
@@ -216,6 +218,7 @@ P
 
 Palo Alto
 * Exploited in the wild:
+  * "Very limited exploitation has been observed targeting the Palo Alto Networks management interface." 14 October 2026 https://security.paloaltonetworks.com/CVE-2026-0322
   * "Palo Alto Networks has become aware of limited exploit attempts on unpatched PAN-OS devices without mitigations applied." 29 May 2026 https://security.paloaltonetworks.com/CVE-2026-0257
   * "Limited exploitation has been observed targeting Palo Alto Networks User-ID™ Authentication Portals that are exposed to untrusted IP addresses and/or the public internet." 05 May 2026 https://security.paloaltonetworks.com/CVE-2026-0300
 
