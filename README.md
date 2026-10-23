@@ -26,6 +26,7 @@ Apple
 
 Arista
 * Exploited in the wild:
+  * "This issue was detected by Arista and is known to be actively exploited." 22 October 2026 https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199
   * "This issue was discovered externally and is known to be actively exploited." 22 September 2026 https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183
   * "This issue was discovered externally and is known to be actively exploited." 27 July 2026 https://www.arista.com/en/support/advisories-notices/security-advisory/24364-security-advisory-0144
 
@@ -45,7 +46,9 @@ Barracuda
 * Exploited in the wild: "Based on our investigation to date, we’ve identified that the vulnerability resulted in unauthorized access to a subset of email gateway appliances." 23 May 2023 https://status.barracuda.com/incidents/34kx82j5n4q9
 
 BeyondTrust
-* Exploited in the wild: "BeyondTrust is aware of and supporting a limited number of self-hosted customers in responding to active exploitation attempts of the previously disclosed critical vulnerability (CVE-2026-1731) in its Remote Support and Privileged Remote Access solutions." 06 February 2026 https://www.beyondtrust.com/trust-center/security-advisories/bt26-02
+* Exploited in the wild:
+  * "A suspected China-nexus espionage actor exploited a zero-day vulnerability." "The actor exploited a zero-day vulnerability against a single BeyondTrust-hosted Remote Support instance and a single self-hosted Remote Support appliance." 15 October 2026 https://www.beyondtrust.com/blog/entry/bt26-05
+  * "BeyondTrust is aware of and supporting a limited number of self-hosted customers in responding to active exploitation attempts of the previously disclosed critical vulnerability (CVE-2026-1731) in its Remote Support and Privileged Remote Access solutions." 06 February 2026 https://www.beyondtrust.com/trust-center/security-advisories/bt26-02
 
 Broadcom
 * Proof of concept:
@@ -250,6 +253,9 @@ Roundcube
 * Exploited in the wild: "Apparently this zero-day exploit is already being used by hackers to read Roundcube’s configuration files." 08 November 2017 https://roundcube.net/news/2017/11/08/security-updates-1.3.3-1.2.7-and-1.1.10
 
 S
+
+SiteGuard
+* Exploited in the wild: "Exploitation has already been confirmed." 14 October 2026 https://www.eg-secure.co.jp/siteguard/news/alert-202610-1
 
 SolarWinds
 * Exploited in the wild:
